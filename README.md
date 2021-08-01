@@ -2,13 +2,14 @@
 
 ## QR コード生成
 
-`pipenv g <URL>`
+`pipenv run g <URL>`
 <br>とすることで QR コードの画像を出力することができます。
 <br>生成された画像は`./output`に png 画像として出力されます。
 
 ## QR コード読み取り(画像から)
 
-未実装
+`pipenv run r <filepath>`
+<br>とすることで QR コードの画像から URL から抽出することができます。
 
 ## QR コード読み取り(Web カメラから)
 
