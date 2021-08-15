@@ -16,3 +16,4 @@ python_version = "3.9"
 [scripts]
 g = "py generate.py"
 r = "py read.py"
+d = "py detect.py"
